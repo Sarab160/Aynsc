@@ -1,3 +1,4 @@
+import inquirer  from "inquirer";
 function result(name:string,marks:number){
     console.log("yur result are",result);
     
