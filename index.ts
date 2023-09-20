@@ -82,3 +82,45 @@ console.log("sucess",sucess);
     console.log("errr",err);
 })
 
+console.log("first");
+async function workupdate() {
+     await inquirer.prompt([{
+        type:"number",
+        name:"num",
+        message:"Enter number"
+    }])
+    await inquirer.prompt([{
+        type:"number",
+        name:"num2",
+        message:"Enter num2"
+    }])
+
+console.log("second");
+    
+}
+workupdate()
+console.log("third");
+console.log("step 1");
+
+async function takeinput() {
+    var result = await inquirer.prompt([{
+        type:"number",
+        name:"num3",
+        message:"Enter num3"
+    }])
+    console.log("rseult ",result);
+    if(result.num3<100){
+        var result1 = inquirer.prompt([{
+            type:"number",
+            name:"num4",
+            Message:"Enter num4",
+
+        }])
+        console.log("result1",result1);
+        
+    }
+    console.log("step 2");
+    
+}
+takeinput();
+console.log("step 3");
