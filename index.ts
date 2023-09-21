@@ -124,3 +124,4 @@ async function takeinput() {
 }
 takeinput();
 console.log("step 3");
+console.log();
