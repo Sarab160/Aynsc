@@ -101,16 +101,16 @@ var questions = [{
 let solutions = inquirer.prompt(questions);
 solutions.then((solutions) => {
     if (solutions.operations == "+") {
-        console.log(`${solutions.num} + ${solutions.num1} = ${solutions.num + solutions.num1}`);
+        console.log(chalk.gray(`${solutions.num} + ${solutions.num1} = ${solutions.num + solutions.num1}`));
     }
     else if (solutions.operations == '*') {
-        console.log(`${solutions.num} * ${solutions.num1} = ${solutions.num * solutions.num1}`);
+        console.log(chalk.green(`${solutions.num} * ${solutions.num1} = ${solutions.num * solutions.num1}`));
     }
     else if (solutions.operations == "/") {
-        console.log(`${solutions.num} / ${solutions.num1} = ${solutions.num / solutions.num1}`);
+        console.log(chalk.blue(`${solutions.num} / ${solutions.num1} = ${solutions.num / solutions.num1}`));
     }
     else if (solutions.operations == '-') {
-        console.log(`${solutions.num} - ${solutions.num1} = ${solutions.num - solutions.num1}`);
+        console.log(chalk.red(`${solutions.num} - ${solutions.num1} = ${solutions.num - solutions.num1}`));
     }
     console.log("solution", solutions);
 })
