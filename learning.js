@@ -49,7 +49,14 @@ console.log(colors);
 // colors[colors.red]
 function swap(arr) {
     return [arr[1], arr[0]];
-}
+} //=> is tara swap chala wala chala ga array ko apni marzi ka mutabay array ko tarteb sa chala skta ha
 var swapcode = swap([10, 9]);
 console.log(swapcode);
+function swap1(arr2) {
+    return [arr2[1], arr2[0]];
+}
+let newobject = {
+    rollno: 23,
+    uni: "ntu" //interface object ka tecal krta ha 100 percnt
+};
 export {};
