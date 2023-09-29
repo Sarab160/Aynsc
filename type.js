@@ -91,4 +91,16 @@ var newarrang2 = swap2([121, 2324, 454]);
 console.log(newarrang2);
 var newarrang3 = swap2([true, false]);
 console.log(newarrang3);
+let data2 = {
+    name: "sarab",
+    rollno: 12,
+    class: 12
+};
+let combinedata = {
+    Experiens: "kafi zyada ha",
+    name: "sarab",
+    age: 23,
+    yourEducation: "bht achi ha"
+};
+console.log(combinedata.name);
 export {};

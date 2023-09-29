@@ -95,6 +95,36 @@ console.log(newarrang2);
 var newarrang3:boolean[] = swap2<boolean>([true,false])
 console.log(newarrang3);
 
+interface studentA{
+    name:string,
+    rollno:number,
+    class:number
+}
+let data2:studentA = {
+    name: "sarab",
+    rollno: 12,
+    class: 12
+}
+interface data {
+    name:string,
+    yourEducation:string
+}
+interface data3 {
+    name:string,
+    age:number
+}
+interface data extends data3{
+    Experiens:string
+}
+let combinedata:data= {
+    Experiens:"kafi zyada ha",
+    name:"sarab",
+    age:23,
+    yourEducation:"bht achi ha"
+    
+}
+console.log(combinedata.name);
+
 
 
 
