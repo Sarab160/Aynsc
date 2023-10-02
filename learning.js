@@ -37,26 +37,33 @@ let num3 = 23; //=> ya union ha ha ka var ki one sa zada type rakhna ka liya | y
 //intersection is ma & lagana ha is ma dono type ka full fill hona zarori ha
 //object level par bi dono hoga 
 //enum
-var colors;
-(function (colors) {
-    colors[colors["red"] = 0] = "red";
-    colors[colors["green"] = 1] = "green";
-    colors[colors["black"] = 2] = "black";
-})(colors || (colors = {}));
-const whatcolor = colors.red; //ya index save hoga whatcolor ma 0 aya ha
-console.log(whatcolor);
-console.log(colors);
-// colors[colors.red]
-function swap(arr) {
-    return [arr[1], arr[0]];
-} //=> is tara swap chala wala chala ga array ko apni marzi ka mutabay array ko tarteb sa chala skta ha
-var swapcode = swap([10, 9]);
-console.log(swapcode);
-function swap1(arr2) {
-    return [arr2[1], arr2[0]];
+// enum colors {red,green,black}
+// const whatcolor = colors.red;//ya index save hoga whatcolor ma 0 aya ha
+// console.log(whatcolor);
+// console.log(colors);
+// // colors[colors.red]
+// function swap(arr:number[]):number[]{
+//     return[arr[1],arr[0]]
+// }//=> is tara swap chala wala chala ga array ko apni marzi ka mutabay array ko tarteb sa chala skta ha
+// var swapcode:number[] = swap([10,9]);
+// console.log(swapcode);
+// function swap1<l>(arr2:l[]):l[]{// <>ya lagna sa jo input ki type hogi vohi type hogi
+// return [arr2[1],arr2[0]];
+// }
+// //jb call krna ha <> is ma type likh do aur ooper wasa hi raha ga
+// //<> it is generic
+// //interface
+// interface studentc {
+//     rollno:number,
+//     uni:string
+// }
+// let newobject:studentc={
+//     rollno: 23,
+//     uni:"ntu"//interface object ka tecal krta ha 100 percnt
+// }
+function printname(...arr) {
+    console.log(arr);
+    //... jitni mrzi data likho
 }
-let newobject = {
-    rollno: 23,
-    uni: "ntu" //interface object ka tecal krta ha 100 percnt
-};
+console.log(printname("sarab", "rafique", 'cheema'));
 export {};
