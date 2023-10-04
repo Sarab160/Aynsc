@@ -105,7 +105,7 @@ class mendata {
 // data1.age = 23;
 console.log(data1);
 
-function Arrow(resolve:any,reject:any){
+function Arrow(resolve:any,reject:any):void{
     var number9:number = 10;
     if(number9!=10){
      resolve("code run successfully")
