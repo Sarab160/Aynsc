@@ -65,5 +65,5 @@ function printname(...arr) {
     console.log(arr);
     //... jitni mrzi data likho
 }
-console.log(printname("sarab", "rafique", 'cheema'));
+console.log(printname("SARAB", "RAFIQUE", "CHEEMA"));
 export {};
