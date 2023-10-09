@@ -1,3 +1,4 @@
+export {};
 // console.log("first");
 // async function uploadusers(){
 //     console.log("upload");//ya code async hogya ha ya console tab chala ga jb is ka process hoga but third log chal jaya ga
@@ -30,10 +31,10 @@
 //unknown sa type check kar skta ha
 //never 
 //object
-let type = ["saa]ar", 34]; //=>is ma sirf do hi index ho skta ha
-let num2 = [23, 32]; //=>is ma 2 value hi save ho gi aur onki type number ho gi;
-//union
-let num3 = 23; //=> ya union ha ha ka var ki one sa zada type rakhna ka liya | ya laga kar jitni marzi type defin kar lo
+// let type:[string,number]= ["saa]ar",34]//=>is ma sirf do hi index ho skta ha
+// let num2:[number,number]= [23,32]//=>is ma 2 value hi save ho gi aur onki type number ho gi;
+// //union
+// let num3:number|string = 23 //=> ya union ha ha ka var ki one sa zada type rakhna ka liya | ya laga kar jitni marzi type defin kar lo
 //intersection is ma & lagana ha is ma dono type ka full fill hona zarori ha
 //object level par bi dono hoga 
 //enum
@@ -61,9 +62,16 @@ let num3 = 23; //=> ya union ha ha ka var ki one sa zada type rakhna ka liya | y
 //     rollno: 23,
 //     uni:"ntu"//interface object ka tecal krta ha 100 percnt
 // }
-function printname(...arr) {
-    console.log(arr);
-    //... jitni mrzi data likho
-}
-console.log(printname("SARAB", "RAFIQUE", "CHEEMA"));
-export {};
+// function printname(...arr:string[]){
+//     console.log(arr);
+//     //... jitni mrzi data likho
+// }
+// console.log(printname("SARAB","RAFIQUE","CHEEMA"));
+// let num =setInterval(()=>{
+// console.log(chalk.green("cr bahi zindabad"));
+// },1000)
+//     console.log(num);
+//inheritance
+//parent ka jitni bi functions ha vo child ma jy ag
+//super
+//encpsulation
