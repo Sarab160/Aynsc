@@ -21,7 +21,7 @@ async function studentgender() {
         console.log(chalk.green(`${name.name} yu are khusra(SHEMALE)`));
     }
 }
-//studentgender();
+studentgender();
 
 console.log(chalk.blue("time table of software sec-b group 2 non-medical"));
 
@@ -105,7 +105,7 @@ async function data(){
   }
 }
 
- data();
+ //data();
 
 
 

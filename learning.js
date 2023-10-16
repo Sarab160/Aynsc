@@ -1,4 +1,3 @@
-export {};
 // console.log("first");
 // async function uploadusers(){
 //     console.log("upload");//ya code async hogya ha ya console tab chala ga jb is ka process hoga but third log chal jaya ga
@@ -75,3 +74,10 @@ export {};
 //parent ka jitni bi functions ha vo child ma jy ag
 //super
 //encpsulation
+var number = 10;
+for (let i = 0; i <= number; i++) {
+    var table = 2 * i;
+    var tableof2 = `2 *${i} = ${table}`;
+    console.log(tableof2);
+}
+export {};

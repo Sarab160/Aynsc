@@ -84,3 +84,11 @@ import chalk from "chalk"
 //super
    //encpsulation
    
+var number:number = 10;
+for(let i=0;i<=number;i++){
+   var table:unknown = 2 * i;
+   var tableof2 = `2 *${i} = ${table}`;
+   console.log(tableof2);
+   
+   
+ }
