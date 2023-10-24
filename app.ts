@@ -21,12 +21,12 @@ async function studentgender() {
         console.log(chalk.green(`${name.name} yu are khusra(SHEMALE)`));
     }
 }
-studentgender();
+//studentgender();
 
 console.log(chalk.blue("time table of software sec-b group 2 non-medical"));
 
 
-console.log("TIME TABLE data");
+   console.log("TIME TABLE data");
 
 async function data(){
     var days = await inquirer.prompt([{
@@ -104,8 +104,8 @@ async function data(){
 
   }
 }
-
- //data();
+//function call its position of timetable
+//  data();
 
 
 

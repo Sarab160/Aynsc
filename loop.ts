@@ -1,4 +1,5 @@
 import inquirer from "inquirer";
+//table app to find all table of any number there
 console.log("table of random");
 
 let tableof = await inquirer.prompt([{
@@ -19,9 +20,4 @@ var firstStep:unknown = table.table * i;
 var tableofany = `${table.table} *${i} = ${firstStep}`;
    console.log(tableofany);
    
-// console.log(`2 * ${i} = ${firstStep}`);
-
-
-
-
  }
