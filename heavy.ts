@@ -24,10 +24,10 @@ async function userinput(){
     console.log(emote);
     
 }
-userinput();
+//userinput();
 var result:number = 21;
 if(result==2023){
-   //throw new Error("err rae coming")
+   throw new Error("err rae coming")
 };
 console.log(chalk.blue("hello"));
 console.log(chalk.bgGrey("hello world"));

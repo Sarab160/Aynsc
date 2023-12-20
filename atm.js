@@ -55,6 +55,12 @@ const logindata = await inquirer.prompt([{
 const loggedInuser = users.find((user) => user.username == logindata.username && user.pin == logindata.PIN);
 if (loggedInuser) {
     console.log(`Welcome back ${logindata.username}`);
+    const options = await inquirer.prompt([{
+            type: "list",
+            name: "option",
+            message: "choose what you want",
+            choices: ["Check Account balance", 'Withdraw money',]
+        }]);
 }
 else {
     console.log("username or password is incorrect");
